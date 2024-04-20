@@ -1,0 +1,107 @@
+/* General Style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hero {
+    height: 50vh;
+    background-image: linear-gradient(#d62e3490, #d62e3490), url("../images/main_bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: all 0.5s;
+}
+
+.side_nav {
+    width: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+    background-color: #111;
+}
+
+.side_nav ul li a {
+    transition: color 0.3s;
+}
+
+.side_nav ul li:hover a {
+    color: #d62e3490 !important;
+}
+
+#closeIcon {
+    cursor: pointer;
+}
+
+#openIcon {
+    left: 0;
+    cursor: pointer;
+    top: 65%;
+}
+
+.singers_Info {
+    width: 90%;
+}
+
+.singers_Info h3 {
+    background-color: #d62e3490;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.singers_Info p {
+    background-color: #ccc;
+}
+
+.singers p {
+    display: none;
+}
+.singers .show_p{
+    display: block;
+}
+
+.days_counter {
+    background-image: linear-gradient(#d62e34af, #d62e34af), url("../images/timer_bg.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.inner p {
+    max-width: 90%;
+    line-height: 1.9;
+}
+
+.social_icons li {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.social_icons li,
+.social_icons li i {
+    transition: all 0.3s;
+}
+
+.social_icons li:hover i {
+    color: #fff !important;
+}
+
+.social_icons li:hover {
+    background-color: #d62e34af;
+}
+
+footer form textarea {
+    resize: none;
+}
+
+footer h2,
+h4 {
+    color: #d62e34af;
+}
+
+footer .send_btn {
+    background-color: #d62e34af;
+    color: white;
+}
+
